@@ -1,0 +1,21 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+header,
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.post {
+    border: black dotted 1px;
+}
+.post:nth-child(odd) {
+    background-color: lightgray;
+}
